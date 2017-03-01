@@ -1,0 +1,24 @@
+{
+  "name": "baylor-bot",
+  "version": "0.0.0",
+  "description": "A bot requested by /u/adeafblindman",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayorMonty/BaylorBot.git"
+  },
+  "author": "Brendan McGuire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MayorMonty/BaylorBot/issues"
+  },
+  "homepage": "https://github.com/MayorMonty/BaylorBot#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "snoowrap": "^1.12.0",
+    "x-ray": "^2.3.2"
+  }
+}
