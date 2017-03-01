@@ -32,4 +32,4 @@ Start the service with
 
     sudo service baylorbot start
 
-Done. The service will restart on Pi setup 
+Done. The service will restart on OS startup, and will update the sidebar every 30 seconds
