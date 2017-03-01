@@ -4,7 +4,7 @@
   "description": "A bot requested by /u/adeafblindman",
   "main": "main.js",
   "scripts": {
-    "postinstall": "lib/install.js"
+    "postinstall": "sudo node lib/install.js"
   },
   "repository": {
     "type": "git",
