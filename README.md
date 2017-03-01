@@ -6,7 +6,7 @@ Made for [/u/adeafblindman](https://reddit.com/u/adeafblindman)
 
 ## Installation on Debain & Raspberry Pi
 
-*Note*: Make sure that you have Node.js and NPM installed before proceeding
+*Note*: Make sure that you have Node.js and NPM installed before proceeding. [Here's](http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/) a great guide.
 
 First, clone from GitHub **into /home/pi/BaylorBot**
 
