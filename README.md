@@ -29,6 +29,10 @@ Then, install and register as a service:
     sudo npm i -g pm2
     sudo npm i
 
+Now, register the bot with [PM2](https://pm2.io), a process manager for node applcations:
+    sudo pm2 startup
+    sudo pm2 start main.js --name 'BaylorBot'
+
 
 Done. The service will restart on OS startup, and will update the sidebar every 30 seconds. You can check the status of the bot using the command:
 
