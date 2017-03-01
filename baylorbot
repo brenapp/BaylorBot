@@ -15,13 +15,13 @@ export HOME=/root
 
 case "$1" in
   start)
-    /opt/node/bin/forever -p /root/.forever --sourceDir=/home/pi/BaylorBot/main.js
+    forever -p /root/.forever --sourceDir=/home/pi/BaylorBot/main.js
     ;;
   stop)
-    exec /opt/node/bin/forever stopall
+    exec forever stop /home/pi/BaylorBot/main.js
     ;;
   restart)
-    exec /opt/node/bin/forever restart /home/pi/BaylorBot/main.js
+    exec forever restart /home/pi/BaylorBot/main.js
     ;;
   *)
 
