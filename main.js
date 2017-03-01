@@ -14,6 +14,7 @@ fs.readFile("sidebar.hbs", (err, contents) => {
   sidebar = handlebars.compile(contents.toString());
   // Update every thirty seconds
   setInterval(() => {
+    console.log("Getting scores...");
     getGames()
       .then(games => ({ games }))
       .then(sidebar)
