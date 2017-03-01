@@ -26,7 +26,8 @@ Fill in `credentials.json`. It should look like this:
 
 Then, install and register as a service:
 
-    sudo npm install
+    sudo npm i -g pm2
+    sudo npm i
 
 
 Done. The service will restart on OS startup, and will update the sidebar every 30 seconds. You can check the status of the bot using the command:
