@@ -4,7 +4,8 @@
   "description": "A bot requested by /u/adeafblindman",
   "main": "main.js",
   "scripts": {
-    "postinstall": "node lib/install.js"
+    "preinstall": "sudo npm install -g pm2",
+    "postinstall": "sudo pm2 startup && pm2 start main.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "express": "^4.14.1",
     "handlebars": "^4.0.6",
     "snoowrap": "^1.12.0",
-    "x-ray": "^2.3.2"
+    "x-ray": "^2.3.2",
+    "pm2": "^2.4.1"
   }
 }

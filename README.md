@@ -12,10 +12,6 @@ First, clone from GitHub **into /home/pi/BaylorBot**
 
     git clone https://github.com/MayorMonty/BaylorBot /home/pi/BaylorBot
 
-Then, install and register as a service:
-
-    sudo npm install
-
 Fill in `credentials.json`. It should look like this:
 
     {
@@ -28,8 +24,9 @@ Fill in `credentials.json`. It should look like this:
       }
     }
 
-Start the service with
+Then, install and register as a service:
 
-    sudo service baylorbot start
+    sudo npm install
+
 
 Done. The service will restart on OS startup, and will update the sidebar every 30 seconds
