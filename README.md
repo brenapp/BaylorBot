@@ -29,4 +29,8 @@ Then, install and register as a service:
     sudo npm install
 
 
-Done. The service will restart on OS startup, and will update the sidebar every 30 seconds
+Done. The service will restart on OS startup, and will update the sidebar every 30 seconds. You can check the status of the bot using the command:
+
+    pm2 monit
+
+Pay attention to the application entitled BaylorBot
