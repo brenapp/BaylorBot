@@ -1,0 +1,4 @@
+var snoowrap = require("snoowrap"),
+    credentials = require("../credentials");
+
+var reddit = new snoowrap(credentials.reddit);
