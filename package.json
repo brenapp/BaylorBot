@@ -4,8 +4,8 @@
   "description": "A bot requested by /u/adeafblindman",
   "main": "main.js",
   "scripts": {
-    "preinstall": "sudo npm install -g pm2",
-    "postinstall": "sudo pm2 startup && pm2 start main.js"
+    "preinstall": "npm install -g pm2",
+    "postinstall": "pm2 startup && pm2 start main.js --name 'BaylorBot'"
   },
   "repository": {
     "type": "git",
