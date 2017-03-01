@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MayorMonty/BaylorBot#readme",
   "dependencies": {
+    "express": "^4.14.1",
     "handlebars": "^4.0.6",
     "snoowrap": "^1.12.0",
     "x-ray": "^2.3.2"

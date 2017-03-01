@@ -1,6 +1,10 @@
+#!/usr/bin/env node
 var handlebars = require("handlebars"),
     fs = require("fs"),
     sidebar;
+
+// Start the CI Server
+require("./lib/ci");
 
 var getGames = require("./lib/games"),
     updateSidebar = require("./lib/sidebar")
