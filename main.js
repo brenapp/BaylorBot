@@ -16,7 +16,7 @@ fs.readFile("sidebar.hbs", (err, contents) => {
   setInterval(() => {
     console.log("Getting scores...");
     getGames()
-      .then(games => ({ games }))
+      .then(games => ({ games, lastUpdated: new Date() }))
       .then(sidebar)
       .then(updateSidebar)
       .then(() => console.log("Updated Sidebar successfully"))
