@@ -30,6 +30,7 @@ Then, install and register as a service:
     sudo npm i
 
 Now, register the bot with [PM2](https://pm2.io), a process manager for node applcations:
+
     sudo pm2 startup
     pm2 start main.js --name 'BaylorBot'
     pm2 save
